@@ -1,10 +1,10 @@
 _G.ClaimRewards = true -- Claims lobby rewards after matches
 _G.AutoPickups = true -- Collects event pickups/tokens in match
-_G.AutoSkip = false -- Automatically votes to skip waves
+_G.AutoSkip = true -- Automatically votes to skip waves
 _G.AntiLag = false -- Reduces effects/animations to lower lag
 _G.AutoRestart = true -- Enables post-match handling; false leaves the result screen untouched
 _G.RejoinLoss = true -- On loss: true returns to lobby, false restarts and replays the saved strategy
-_G.TimeScale = false -- Enables the time scale settings below
+_G.TimeScale = true -- Enables the time scale settings below
 
 -- [[ WEBHOOK SETTINGS ]]
 _G.SendWebhook = false -- Sends match result notifications to webhook
